@@ -3,7 +3,7 @@ from aiogram import Bot
 from aiogram.client.session.aiohttp import AiohttpSession
 from aiogram.client.telegram import TelegramAPIServer
 
-TOKEN = os.environ["1780244857:5k0zivNAouNR5ZdqVb-oWHgCX2EYZJA94H_"]
+TOKEN = os.environ["BOT_TOKEN"]
 CHAT = os.environ.get("CHAT_ID", "@OHUENKO")
 if CHAT.lstrip("-").isdigit():
     CHAT = int(CHAT)
